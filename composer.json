@@ -1,0 +1,13 @@
+{
+  "name": "mailganer/mailganer_php_library",
+  "description": "Mailganer PHP Library",
+  "autoload": {
+    "psr-4": {
+      "Mailganer\\Library\\": "src/"
+    }
+  },
+  "require": {
+    "ext-curl": "*",
+    "ext-json": "*"
+  }
+}
